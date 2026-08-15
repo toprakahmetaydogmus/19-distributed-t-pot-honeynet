@@ -1,9 +1,15 @@
-# Distributed T-Pot Honeynet & Sensor Telemetry Lab
+# Distributed Honeynet Sensor Telemetry & Profiler
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Honeypot](https://img.shields.io/badge/Sensor-Deception%20Grid-yellow.svg)](#)
 
 Geliştirici: **Toprak Ahmet Aydoğmuş**
 
-Dağıtık Cowrie, Dionaea ve Honeytrap sensörlerinden gelen saldırgan telemetrilerinin merkezi ELK üzerinde görselleştirilmesi.
+Dağıtık Cowrie ve Dionaea honeypot sensörlerinden gelen saldırı telemetrilerini ayrıştıran ve saldırgan komut profillemesi yapan analiz modülü.
+
+## Hızlı Başlangıç
+```bash
+python3 scripts/honeynet_profiler.py
+```
 
 ## Lisans
 MIT License - Toprak Ahmet Aydoğmuş
